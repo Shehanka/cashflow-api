@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "moneyboss-transaction-service", "moneyboss-transaction-service\moneyboss-transaction-service.csproj", "{95481FF4-2A40-4D02-A793-135D0B288C47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95481FF4-2A40-4D02-A793-135D0B288C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95481FF4-2A40-4D02-A793-135D0B288C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95481FF4-2A40-4D02-A793-135D0B288C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95481FF4-2A40-4D02-A793-135D0B288C47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DA767FB-9E68-468D-A83B-DB1F55055E1F}
+	EndGlobalSection
+EndGlobal

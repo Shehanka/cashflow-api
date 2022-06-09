@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3hkFLJFxhz4nXBE3rwxpMmoDCquiapWMq+CXKpUFdV8=",
+  "Source": "moneyboss-transaction-service",
+  "BasePath": "_content/moneyboss-transaction-service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
