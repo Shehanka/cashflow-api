@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: cashflow-api
+  name: cashflow-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cashflow-api
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: cashflow-api
+    spec:
+      containers: 
+      - image: ghcr.io/kaveeshag/moneyboss-transaction-service:latest
+        name: cashflow-api
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}
